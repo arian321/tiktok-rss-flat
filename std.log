@@ -1,14 +1,21 @@
-2024-02-24 05:21:28,696 Using selector: EpollSelector
-2024-02-24 05:23:30,298 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-02-24 05:23:30,299 Using selector: EpollSelector
-2024-02-24 05:25:31,903 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-02-24 05:25:31,904 Using selector: EpollSelector
-2024-02-24 05:27:32,760 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-02-24 05:27:32,760 Using selector: EpollSelector
-2024-02-24 05:29:34,635 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-02-24 05:29:34,636 Using selector: EpollSelector
-2024-02-24 05:31:36,797 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-02-24 05:31:36,798 Using selector: EpollSelector
-2024-02-24 05:33:37,919 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-02-24 05:33:37,919 Using selector: EpollSelector
-2024-02-24 05:35:39,964 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-02-24 06:22:28,113 Using selector: EpollSelector
+2024-02-24 06:24:30,713 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-02-24 06:24:30,713 Using selector: EpollSelector
+2024-02-24 06:24:31,191 Error: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /home/runner/.cache/ms-playwright/chromium-1097/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-gpu --single-process --user-data-dir=/tmp/playwright_chromiumdev_profile-Tclcpb --remote-debugging-pipe --no-startup-window
+<launched> pid=2188
+[pid=2188][err] [0224/062431.057216:WARNING:audio_manager_linux.cc(53)] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
+[pid=2188][err] [0224/062431.060079:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping mandatory platform policies because no policy file was found at: /etc/chromium/policies/managed
+[pid=2188][err] [0224/062431.060107:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping recommended platform policies because no policy file was found at: /etc/chromium/policies/recommended
+2024-02-24 06:24:31,192 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2024-02-24 06:24:31,192 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2024-02-24 06:24:31,192 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2024-02-24 06:24:31,192 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2024-02-24 06:24:31,192 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
