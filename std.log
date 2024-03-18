@@ -1,14 +1,44 @@
-2024-03-18 14:21:02,547 Using selector: EpollSelector
-2024-03-18 14:23:04,710 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-18 14:23:04,710 Using selector: EpollSelector
-2024-03-18 14:25:05,318 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-18 14:25:05,318 Using selector: EpollSelector
-2024-03-18 14:27:06,002 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-18 14:27:06,003 Using selector: EpollSelector
-2024-03-18 14:29:06,671 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-18 14:29:06,671 Using selector: EpollSelector
-2024-03-18 14:31:07,346 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-18 14:31:07,346 Using selector: EpollSelector
-2024-03-18 14:33:08,133 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-18 14:33:08,134 Using selector: EpollSelector
-2024-03-18 14:35:08,858 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-18 15:19:28,280 Using selector: EpollSelector
+2024-03-18 15:21:29,189 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-18 15:21:29,189 Using selector: EpollSelector
+2024-03-18 15:23:30,379 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-18 15:23:30,380 Using selector: EpollSelector
+2024-03-18 15:25:31,428 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-18 15:25:31,428 Using selector: EpollSelector
+2024-03-18 15:27:32,795 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-18 15:27:32,796 Using selector: EpollSelector
+2024-03-18 15:29:34,841 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-18 15:29:34,841 Using selector: EpollSelector
+2024-03-18 15:31:35,901 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-18 15:31:35,902 Using selector: EpollSelector
+2024-03-18 15:31:36,425 Error: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /home/runner/.cache/ms-playwright/chromium-1105/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-gpu --single-process --user-data-dir=/tmp/playwright_chromiumdev_profile-aeLZmn --remote-debugging-pipe --no-startup-window
+<launched> pid=3628
+[pid=3628][err] [0318/153136.192289:WARNING:audio_manager_linux.cc(53)] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
+[pid=3628][err] [0318/153136.194962:INFO:policy_logger.cc(145)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping mandatory platform policies because no policy file was found at: /etc/chromium/policies/managed
+[pid=3628][err] [0318/153136.194989:INFO:policy_logger.cc(145)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping recommended platform policies because no policy file was found at: /etc/chromium/policies/recommended
+[pid=3628][err] Received signal 11 SI_KERNEL000000000000
+[pid=3628][err]  Possibly a General Protection Fault, can be due to a non-canonical address dereference. See "Intel 64 and IA-32 Architectures Software Developer’s Manual", Volume 1, Section 3.3.7.1.
+[pid=3628][err] #0 0x63d23822bcc2 [0318/153136.199077:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[pid=3628][err] base::debug::CollectStackTrace()
+[pid=3628][err] #1 0x63d2382199b3 base::debug::StackTrace::StackTrace()
+[pid=3628][err] #2 0x63d23822b6e1 base::debug::(anonymous namespace)::StackDumpSignalHandler()
+[pid=3628][err] #3 0x7b3ea9042520 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4251f)
+[pid=3628][err] #4 0x7b3ea9044c1d getenv
+[pid=3628][err] #5 0x63d2383ae3b2 event_base_new
+[pid=3628][err] #6 0x63d23823758d base::MessagePumpLibevent::MessagePumpLibevent()
+[pid=3628][err] #7 0x63d238179beb base::MessagePump::Create()
+[pid=3628][err] #8 0x63d2381fb403 base::internal::SequenceManagerThreadDelegate::BindToCurrentThread()
+[pid=3628][err] #9 0x63d2381fb058 base::Thread::ThreadMain()
+[pid=3628][err] #10 0x63d23820f6ef base::(anonymous namespace)::ThreadFunc()
+[pid=3628][err] #11 0x7b3ea9094ac3 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x94ac2)
+[pid=3628][err] #12 0x7b3ea9126850 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x12684f)
+[pid=3628][err]   r8: 00002074000a60b0  r9: 00002074002316c0 r10: 00002074000a6130 r11: 0000000000000246
+[pid=3628][err]  r12: 00dc2200b4080000 r13: 0000000000000011 r14: 000000000000000f r15: 000063d2313e03ea
+[pid=3628][err]   di: 000063d2313e03e8  si: 000000000000009a  bp: 0000000000005645  bx: 000008b40022c800
+[pid=3628][err]   dx: 000063d2313e03e8  ax: 0000000000000011  cx: 00007b3ea90ec09b  sp: 00007b3e90bf92d0
+[pid=3628][err]   ip: 00007b3ea9044c1d efl: 0000000000010206 cgf: 002b000000000033 erf: 0000000000000000
+[pid=3628][err]  trp: 000000000000000d msk: 0000000000000000 cr2: 0000000000000000
+[pid=3628][err] [end of stack trace]
