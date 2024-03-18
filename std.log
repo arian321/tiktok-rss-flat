@@ -1,45 +1,14 @@
-2024-03-18 19:15:48,176 Using selector: EpollSelector
-2024-03-18 19:17:50,315 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-18 19:17:50,315 Using selector: EpollSelector
-2024-03-18 19:19:52,704 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-18 19:19:52,704 Using selector: EpollSelector
-2024-03-18 19:19:53,232 Error: Target page, context or browser has been closed
-Browser logs:
-
-<launching> /home/runner/.cache/ms-playwright/chromium-1105/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-gpu --single-process --user-data-dir=/tmp/playwright_chromiumdev_profile-Xlsxsd --remote-debugging-pipe --no-startup-window
-<launched> pid=3248
-[pid=3248][err] [0318/191952.987124:WARNING:audio_manager_linux.cc(53)] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
-[pid=3248][err] [0318/191952.990127:INFO:policy_logger.cc(145)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping mandatory platform policies because no policy file was found at: /etc/chromium/policies/managed
-[pid=3248][err] [0318/191952.990150:INFO:policy_logger.cc(145)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping recommended platform policies because no policy file was found at: /etc/chromium/policies/recommended
-[pid=3248][err] Received signal 11 SI_KERNEL000000000000
-[pid=3248][err]  Possibly a General Protection Fault, can be due to a non-canonical address dereference. See "Intel 64 and IA-32 Architectures Software Developer’s Manual", Volume 1, Section 3.3.7.1.
-[pid=3248][err] #0 0x57498f336cc2 [0318/191952.994515:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
-[pid=3248][err] base::debug::CollectStackTrace()
-[pid=3248][err] #1 0x57498f3249b3 base::debug::StackTrace::StackTrace()
-[pid=3248][err] #2 0x57498f3366e1 base::debug::(anonymous namespace)::StackDumpSignalHandler()
-[pid=3248][err] #3 0x7545f3642520 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4251f)
-[pid=3248][err] #4 0x7545f3644c1d getenv
-[pid=3248][err] #5 0x57498f4bbeb9 epoll_init
-[pid=3248][err] #6 0x57498f4b9351 event_base_new
-[pid=3248][err] #7 0x57498f34258d base::MessagePumpLibevent::MessagePumpLibevent()
-[pid=3248][err] #8 0x57498f284beb base::MessagePump::Create()
-[pid=3248][err] #9 0x57498f306403 base::internal::SequenceManagerThreadDelegate::BindToCurrentThread()
-[pid=3248][err] #10 0x57498f306058 base::Thread::ThreadMain()
-[pid=3248][err] #11 0x57498f31a6ef base::(anonymous namespace)::ThreadFunc()
-[pid=3248][err] #12 0x7545f3694ac3 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x94ac2)
-[pid=3248][err] #13 0x7545f3726850 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x12684f)
-[pid=3248][err]   r8: 000031d400426800  r9: 00002d98000a9380 r10: 00007fffda147080 r11: 0000000000000246
-[pid=3248][err]  r12: 00dc2200d4310000 r13: 000000000000000d r14: 000000000000000b r15: 00005749884ccc2b
-[pid=3248][err]   di: 00005749884ccc29  si: 00007545dc3fa310  bp: 0000000000005645  bx: 000031d40022c800
-[pid=3248][err]   dx: 00005749884ccc29  ax: 000000000000000d  cx: 00007545f36ec09b  sp: 00007545dc3fa2a0
-[pid=3248][err]   ip: 00007545f3644c1d efl: 0000000000010206 cgf: 002b000000000033 erf: 0000000000000000
-[pid=3248][err]  trp: 000000000000000d msk: 0000000000000000 cr2: 0000000000000000
-[pid=3248][err] [end of stack trace]
-2024-03-18 19:19:53,233 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
-Please use the Async API instead.
-2024-03-18 19:19:53,233 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
-Please use the Async API instead.
-2024-03-18 19:19:53,233 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
-Please use the Async API instead.
-2024-03-18 19:19:53,233 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
-Please use the Async API instead.
+2024-03-18 20:20:27,432 Using selector: EpollSelector
+2024-03-18 20:22:30,834 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-18 20:22:30,834 Using selector: EpollSelector
+2024-03-18 20:24:33,342 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-18 20:24:33,343 Using selector: EpollSelector
+2024-03-18 20:26:35,314 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-18 20:26:35,314 Using selector: EpollSelector
+2024-03-18 20:28:37,572 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-18 20:28:37,573 Using selector: EpollSelector
+2024-03-18 20:30:39,586 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-18 20:30:39,586 Using selector: EpollSelector
+2024-03-18 20:32:41,433 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-18 20:32:41,433 Using selector: EpollSelector
+2024-03-18 20:34:44,341 Error: Data scraping unable to complete in 60.0s (retries: 3)
