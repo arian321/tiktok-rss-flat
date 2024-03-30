@@ -1,14 +1,45 @@
-2024-03-30 13:20:41,190 Using selector: EpollSelector
-2024-03-30 13:22:43,560 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-30 13:22:43,561 Using selector: EpollSelector
-2024-03-30 13:24:46,234 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-30 13:24:46,234 Using selector: EpollSelector
-2024-03-30 13:26:48,187 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-30 13:26:48,188 Using selector: EpollSelector
-2024-03-30 13:28:50,135 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-30 13:28:50,136 Using selector: EpollSelector
-2024-03-30 13:30:52,161 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-30 13:30:52,162 Using selector: EpollSelector
-2024-03-30 13:32:55,099 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-30 13:32:55,100 Using selector: EpollSelector
-2024-03-30 13:34:57,472 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-30 14:17:41,298 Using selector: EpollSelector
+2024-03-30 14:17:43,002 Error: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /home/runner/.cache/ms-playwright/chromium-1105/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-gpu --single-process --user-data-dir=/tmp/playwright_chromiumdev_profile-K6Ltqh --remote-debugging-pipe --no-startup-window
+<launched> pid=3036
+[pid=3036][err] [0330/141742.728372:WARNING:audio_manager_linux.cc(53)] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
+[pid=3036][err] [0330/141742.731225:INFO:policy_logger.cc(145)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping mandatory platform policies because no policy file was found at: /etc/chromium/policies/managed
+[pid=3036][err] [0330/141742.731256:INFO:policy_logger.cc(145)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping recommended platform policies because no policy file was found at: /etc/chromium/policies/recommended
+[pid=3036][err] Received signal 11 SI_KERNEL000000000000
+[pid=3036][err]  Possibly a General Protection Fault, can be due to a non-canonical address dereference. See "Intel 64 and IA-32 Architectures Software Developer’s Manual", Volume 1, Section 3.3.7.1.
+[pid=3036][err] #0 0x55d0a897ccc2 [0330/141742.735752:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[pid=3036][err] base::debug::CollectStackTrace()
+[pid=3036][err] #1 0x55d0a896a9b3 base::debug::StackTrace::StackTrace()
+[pid=3036][err] #2 0x55d0a897c6e1 base::debug::(anonymous namespace)::StackDumpSignalHandler()
+[pid=3036][err] #3 0x7fded2042520 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4251f)
+[pid=3036][err] #4 0x7fded2044c1d getenv
+[pid=3036][err] #5 0x55d0a8b01eb9 epoll_init
+[pid=3036][err] #6 0x55d0a8aff351 event_base_new
+[pid=3036][err] #7 0x55d0a898858d base::MessagePumpLibevent::MessagePumpLibevent()
+[pid=3036][err] #8 0x55d0a88cabeb base::MessagePump::Create()
+[pid=3036][err] #9 0x55d0a894c403 base::internal::SequenceManagerThreadDelegate::BindToCurrentThread()
+[pid=3036][err] #10 0x55d0a894c058 base::Thread::ThreadMain()
+[pid=3036][err] #11 0x55d0a89606ef base::(anonymous namespace)::ThreadFunc()
+[pid=3036][err] #12 0x7fded2094ac3 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x94ac2)
+[pid=3036][err] #13 0x7fded2126850 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x12684f)
+[pid=3036][err]   r8: 00003b0000427200  r9: 0000293000062700 r10: 00007ffd67591080 r11: 0000000000000246
+[pid=3036][err]  r12: 00dc2200003b0000 r13: 000000000000000d r14: 000000000000000b r15: 000055d0a1b12c2b
+[pid=3036][err]   di: 000055d0a1b12c29  si: 00007fdeb9bf9310  bp: 0000000000005645  bx: 00003b000022c800
+[pid=3036][err]   dx: 000055d0a1b12c29  ax: 000000000000000d  cx: 00007fded20ec09b  sp: 00007fdeb9bf92a0
+[pid=3036][err]   ip: 00007fded2044c1d efl: 0000000000010206 cgf: 002b000000000033 erf: 0000000000000000
+[pid=3036][err]  trp: 000000000000000d msk: 0000000000000000 cr2: 0000000000000000
+[pid=3036][err] [end of stack trace]
+2024-03-30 14:17:43,002 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2024-03-30 14:17:43,003 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2024-03-30 14:17:43,003 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2024-03-30 14:17:43,003 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2024-03-30 14:17:43,003 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2024-03-30 14:17:43,003 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
