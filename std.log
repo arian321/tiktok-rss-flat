@@ -1,14 +1,76 @@
-2024-05-22 11:19:43,683 Using selector: EpollSelector
-2024-05-22 11:21:45,669 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-05-22 11:21:45,669 Using selector: EpollSelector
-2024-05-22 11:23:48,142 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-05-22 11:23:48,143 Using selector: EpollSelector
-2024-05-22 11:25:49,996 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-05-22 11:25:49,996 Using selector: EpollSelector
-2024-05-22 11:27:51,943 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-05-22 11:27:51,944 Using selector: EpollSelector
-2024-05-22 11:29:54,216 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-05-22 11:29:54,217 Using selector: EpollSelector
-2024-05-22 11:31:56,081 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-05-22 11:31:56,081 Using selector: EpollSelector
-2024-05-22 11:33:58,164 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-05-22 12:38:36,275 Using selector: EpollSelector
+2024-05-22 12:40:39,149 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-05-22 12:40:39,150 Using selector: EpollSelector
+2024-05-22 12:42:41,657 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-05-22 12:42:41,657 Using selector: EpollSelector
+2024-05-22 12:44:43,890 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-05-22 12:44:43,890 Using selector: EpollSelector
+2024-05-22 12:46:46,350 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-05-22 12:46:46,350 Using selector: EpollSelector
+2024-05-22 12:48:48,603 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-05-22 12:48:48,603 Using selector: EpollSelector
+2024-05-22 12:50:50,805 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-05-22 12:50:50,806 Using selector: EpollSelector
+2024-05-22 12:50:51,339 Error: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /home/runner/.cache/ms-playwright/chromium-1117/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-gpu --single-process --user-data-dir=/tmp/playwright_chromiumdev_profile-XXXXXXczoxV2 --remote-debugging-pipe --no-startup-window
+<launched> pid=3578
+[pid=3578][err] [0522/125051.090581:WARNING:audio_manager_linux.cc(53)] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
+[pid=3578][err] [0522/125051.093756:INFO:config_dir_policy_loader.cc(118)] Skipping mandatory platform policies because no policy file was found at: /etc/chromium/policies/managed
+[pid=3578][err] [0522/125051.093782:INFO:config_dir_policy_loader.cc(118)] Skipping recommended platform policies because no policy file was found at: /etc/chromium/policies/recommended
+[pid=3578][err] Received signal 11 SI_KERNEL000000000000
+[pid=3578][err] [0522/125051.098576:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[pid=3578][err]  Possibly a General Protection Fault, can be due to a non-canonical address dereference. See "Intel 64 and IA-32 Architectures Software Developer’s Manual", Volume 1, Section 3.3.7.1.
+[pid=3578][err] #0 0x55d586356332 base::debug::CollectStackTrace()
+[pid=3578][err] #1 0x55d5863439fe base::debug::StackTrace::StackTrace()
+[pid=3578][err] #2 0x55d586355d41 base::debug::(anonymous namespace)::StackDumpSignalHandler()
+[pid=3578][err] #3 0x7fca48a42520 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4251f)
+[pid=3578][err] #4 0x7fca48a44c1d getenv
+[pid=3578][err] #5 0x55d5864df679 epoll_init
+[pid=3578][err] #6 0x55d5864dcb21 event_base_new
+[pid=3578][err] #7 0x55d58636262d base::MessagePumpLibevent::MessagePumpLibevent()
+[pid=3578][err] #8 0x55d5862a3eeb base::MessagePump::Create()
+[pid=3578][err] #9 0x55d586325423 base::internal::SequenceManagerThreadDelegate::BindToCurrentThread()
+[pid=3578][err] #10 0x55d586325078 base::Thread::ThreadMain()
+[pid=3578][err] #11 0x55d5863394ca base::(anonymous namespace)::ThreadFunc()
+[pid=3578][err] #12 0x7fca48a94ac3 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x94ac2)
+[pid=3578][err] #13 0x7fca48b26850 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x12684f)
+[pid=3578][err]   r8: 0000000000000010  r9: 000032ec003afb60 r10: 00007ffd82dfa080 r11: 0000000000000246
+[pid=3578][err]  r12: 00dc220064070000 r13: 000000000000000d r14: 000000000000000b r15: 000055d57f2976b4
+[pid=3578][err]   di: 000055d57f2976b2  si: 00007fca317fb310  bp: 0000000000005645  bx: 000007640022c800
+[pid=3578][err]   dx: 000055d57f2976b2  ax: 000000000000000d  cx: 00007fca48aec09b  sp: 00007fca317fb2a0
+[pid=3578][err]   ip: 00007fca48a44c1d efl: 0000000000010206 cgf: 002b000000000033 erf: 0000000000000000
+[pid=3578][err]  trp: 000000000000000d msk: 0000000000000000 cr2: 0000000000000000
+[pid=3578][err] [end of stack trace]
+Call log:
+<launching> /home/runner/.cache/ms-playwright/chromium-1117/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-gpu --single-process --user-data-dir=/tmp/playwright_chromiumdev_profile-XXXXXXczoxV2 --remote-debugging-pipe --no-startup-window
+  - <launched> pid=3578
+  - [pid=3578][err] [0522/125051.090581:WARNING:audio_manager_linux.cc(53)] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
+  - [pid=3578][err] [0522/125051.093756:INFO:config_dir_policy_loader.cc(118)] Skipping mandatory platform policies because no policy file was found at: /etc/chromium/policies/managed
+  - [pid=3578][err] [0522/125051.093782:INFO:config_dir_policy_loader.cc(118)] Skipping recommended platform policies because no policy file was found at: /etc/chromium/policies/recommended
+  - [pid=3578][err] Received signal 11 SI_KERNEL000000000000
+  - [pid=3578][err] [0522/125051.098576:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+  - [pid=3578][err]  Possibly a General Protection Fault, can be due to a non-canonical address dereference. See "Intel 64 and IA-32 Architectures Software Developer’s Manual", Volume 1, Section 3.3.7.1.
+  - [pid=3578][err] #0 0x55d586356332 base::debug::CollectStackTrace()
+  - [pid=3578][err] #1 0x55d5863439fe base::debug::StackTrace::StackTrace()
+  - [pid=3578][err] #2 0x55d586355d41 base::debug::(anonymous namespace)::StackDumpSignalHandler()
+  - [pid=3578][err] #3 0x7fca48a42520 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4251f)
+  - [pid=3578][err] #4 0x7fca48a44c1d getenv
+  - [pid=3578][err] #5 0x55d5864df679 epoll_init
+  - [pid=3578][err] #6 0x55d5864dcb21 event_base_new
+  - [pid=3578][err] #7 0x55d58636262d base::MessagePumpLibevent::MessagePumpLibevent()
+  - [pid=3578][err] #8 0x55d5862a3eeb base::MessagePump::Create()
+  - [pid=3578][err] #9 0x55d586325423 base::internal::SequenceManagerThreadDelegate::BindToCurrentThread()
+  - [pid=3578][err] #10 0x55d586325078 base::Thread::ThreadMain()
+  - [pid=3578][err] #11 0x55d5863394ca base::(anonymous namespace)::ThreadFunc()
+  - [pid=3578][err] #12 0x7fca48a94ac3 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x94ac2)
+  - [pid=3578][err] #13 0x7fca48b26850 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x12684f)
+  - [pid=3578][err]   r8: 0000000000000010  r9: 000032ec003afb60 r10: 00007ffd82dfa080 r11: 0000000000000246
+  - [pid=3578][err]  r12: 00dc220064070000 r13: 000000000000000d r14: 000000000000000b r15: 000055d57f2976b4
+  - [pid=3578][err]   di: 000055d57f2976b2  si: 00007fca317fb310  bp: 0000000000005645  bx: 000007640022c800
+  - [pid=3578][err]   dx: 000055d57f2976b2  ax: 000000000000000d  cx: 00007fca48aec09b  sp: 00007fca317fb2a0
+  - [pid=3578][err]   ip: 00007fca48a44c1d efl: 0000000000010206 cgf: 002b000000000033 erf: 0000000000000000
+  - [pid=3578][err]  trp: 000000000000000d msk: 0000000000000000 cr2: 0000000000000000
+  - [pid=3578][err] [end of stack trace]
+
