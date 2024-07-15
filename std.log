@@ -1,14 +1,114 @@
-2024-07-15 02:41:11,328 Using selector: EpollSelector
-2024-07-15 02:43:13,898 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-07-15 02:43:13,898 Using selector: EpollSelector
-2024-07-15 02:45:16,440 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-07-15 02:45:16,440 Using selector: EpollSelector
-2024-07-15 02:47:18,544 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-07-15 02:47:18,544 Using selector: EpollSelector
-2024-07-15 02:49:20,705 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-07-15 02:49:20,705 Using selector: EpollSelector
-2024-07-15 02:51:22,844 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-07-15 02:51:22,844 Using selector: EpollSelector
-2024-07-15 02:53:25,136 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-07-15 02:53:25,136 Using selector: EpollSelector
-2024-07-15 02:55:27,655 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-07-15 03:26:20,987 Using selector: EpollSelector
+2024-07-15 03:26:21,807 Error: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /home/runner/.cache/ms-playwright/chromium-1124/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --enable-gpu --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-gpu --single-process --user-data-dir=/tmp/playwright_chromiumdev_profile-XXXXXX3h3jEA --remote-debugging-pipe --no-startup-window
+<launched> pid=2999
+[pid=2999][err] [0715/032621.282080:WARNING:audio_manager_linux.cc(53)] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
+[pid=2999][err] Received signal 11 SI_KERNEL000000000000
+[pid=2999][err]  Possibly a General Protection Fault, can be due to a non-canonical address dereference. See "Intel 64 and IA-32 Architectures Software Developer’s Manual", Volume 1, Section 3.3.7.1.
+[pid=2999][err] #0 0x55ea547928e2 base::debug::CollectStackTrace()
+[pid=2999][err] #1 0x55ea5477fcde base::debug::StackTrace::StackTrace()
+[pid=2999][err] #2 0x55ea547922f1 base::debug::(anonymous namespace)::StackDumpSignalHandler()
+[pid=2999][err] #3 0x7fac0e442520 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4251f)
+[pid=2999][err] #4 0x7fac0e444c1d getenv
+[pid=2999][err] #5 0x55ea5518a739 IA__FcConfigGetFilename
+[pid=2999][err] #6 0x55ea551a58c8 _FcConfigParse
+[pid=2999][err] #7 0x55ea551a73b8 FcParseInclude
+[pid=2999][err] #8 0x55ea551a6aff FcEndElement
+[pid=2999][err] #9 0x55ea551c58ff xmlParseEndTag1
+[pid=2999][err] #10 0x55ea551c8e46 xmlParseChunk
+[pid=2999][err] #11 0x55ea551a60b7 FcConfigParseAndLoadFromMemoryInternal
+[pid=2999][err] #12 0x55ea551a5bfc _FcConfigParse
+[pid=2999][err] #13 0x55ea551a5c83 _FcConfigParse
+[pid=2999][err] #14 0x55ea551a73b8 FcParseInclude
+[pid=2999][err] #15 0x55ea551a6aff FcEndElement
+[pid=2999][err] #16 0x55ea551c58ff xmlParseEndTag1
+[pid=2999][err] #17 0x55ea551c8e46 xmlParseChunk
+[pid=2999][err] #18 0x55ea551a60b7 FcConfigParseAndLoadFromMemoryInternal
+[pid=2999][err] #19 0x55ea551a5bfc _FcConfigParse
+[pid=2999][err] #20 0x55ea5519928b FcInitLoadOwnConfig
+[pid=2999][err] #21 0x55ea551994e1 IA__FcInitLoadConfigAndFonts
+[pid=2999][err] #22 0x55ea551896d1 FcConfigInit
+[pid=2999][err] #23 0x55ea55a39105 base::NoDestructor<>::NoDestructor<>()
+[pid=2999][err] #24 0x55ea55a39096 base::internal::Invoker<>::RunOnce()
+[pid=2999][err] #25 0x55ea54724eef base::TaskAnnotator::RunTaskImpl()
+[pid=2999][err] #26 0x55ea54747fc7 base::internal::TaskTracker::RunTaskImpl()
+[pid=2999][err] #27 0x55ea54748061 base::internal::TaskTracker::RunSkipOnShutdown()
+[pid=2999][err] #28 0x55ea54747d36 base::internal::TaskTracker::RunTask()
+[pid=2999][err] #29 0x55ea547478c0 base::internal::TaskTracker::RunAndPopNextTask()
+[pid=2999][err] #30 0x55ea54759988 base::internal::WorkerThread::RunWorker()
+[pid=2999][err] #31 0x55ea547595ed base::internal::WorkerThread::RunPooledWorker()
+[pid=2999][err] #32 0x55ea547594ed base::internal::WorkerThread::ThreadMain()
+[pid=2999][err] #33 0x55ea547762ea base::(anonymous namespace)::ThreadFunc()
+[pid=2999][err] #34 0x7fac0e494ac3 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x94ac2)
+[pid=2999][err] #35 0x7fac0e526850 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x12684f)
+[pid=2999][err]   r8: 0000261400418600  r9: 00002d040014f600 r10: 0000000000000040 r11: 00002d04000a57d0
+[pid=2999][err]  r12: 00dc220014260000 r13: 0000000000000004 r14: 0000000000000002 r15: 000055ea4d32ca5e
+[pid=2999][err]   di: 000055ea4d32ca5c  si: 00007fac088e7dd0  bp: 0000000000004f48  bx: 000026140022c800
+[pid=2999][err]   dx: 000055ea4d32ca5c  ax: 0000000000000004  cx: 0000000000000080  sp: 00007fac088e3820
+[pid=2999][err]   ip: 00007fac0e444c1d efl: 0000000000010206 cgf: 002b000000000033 erf: 0000000000000000
+[pid=2999][err]  trp: 000000000000000d msk: 0000000000000000 cr2: 0000000000000000
+[pid=2999][err] [end of stack trace]
+Call log:
+<launching> /home/runner/.cache/ms-playwright/chromium-1124/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --enable-gpu --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-gpu --single-process --user-data-dir=/tmp/playwright_chromiumdev_profile-XXXXXX3h3jEA --remote-debugging-pipe --no-startup-window
+  - <launched> pid=2999
+  - [pid=2999][err] [0715/032621.282080:WARNING:audio_manager_linux.cc(53)] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
+  - [pid=2999][err] Received signal 11 SI_KERNEL000000000000
+  - [pid=2999][err]  Possibly a General Protection Fault, can be due to a non-canonical address dereference. See "Intel 64 and IA-32 Architectures Software Developer’s Manual", Volume 1, Section 3.3.7.1.
+  - [pid=2999][err] #0 0x55ea547928e2 base::debug::CollectStackTrace()
+  - [pid=2999][err] #1 0x55ea5477fcde base::debug::StackTrace::StackTrace()
+  - [pid=2999][err] #2 0x55ea547922f1 base::debug::(anonymous namespace)::StackDumpSignalHandler()
+  - [pid=2999][err] #3 0x7fac0e442520 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4251f)
+  - [pid=2999][err] #4 0x7fac0e444c1d getenv
+  - [pid=2999][err] #5 0x55ea5518a739 IA__FcConfigGetFilename
+  - [pid=2999][err] #6 0x55ea551a58c8 _FcConfigParse
+  - [pid=2999][err] #7 0x55ea551a73b8 FcParseInclude
+  - [pid=2999][err] #8 0x55ea551a6aff FcEndElement
+  - [pid=2999][err] #9 0x55ea551c58ff xmlParseEndTag1
+  - [pid=2999][err] #10 0x55ea551c8e46 xmlParseChunk
+  - [pid=2999][err] #11 0x55ea551a60b7 FcConfigParseAndLoadFromMemoryInternal
+  - [pid=2999][err] #12 0x55ea551a5bfc _FcConfigParse
+  - [pid=2999][err] #13 0x55ea551a5c83 _FcConfigParse
+  - [pid=2999][err] #14 0x55ea551a73b8 FcParseInclude
+  - [pid=2999][err] #15 0x55ea551a6aff FcEndElement
+  - [pid=2999][err] #16 0x55ea551c58ff xmlParseEndTag1
+  - [pid=2999][err] #17 0x55ea551c8e46 xmlParseChunk
+  - [pid=2999][err] #18 0x55ea551a60b7 FcConfigParseAndLoadFromMemoryInternal
+  - [pid=2999][err] #19 0x55ea551a5bfc _FcConfigParse
+  - [pid=2999][err] #20 0x55ea5519928b FcInitLoadOwnConfig
+  - [pid=2999][err] #21 0x55ea551994e1 IA__FcInitLoadConfigAndFonts
+  - [pid=2999][err] #22 0x55ea551896d1 FcConfigInit
+  - [pid=2999][err] #23 0x55ea55a39105 base::NoDestructor<>::NoDestructor<>()
+  - [pid=2999][err] #24 0x55ea55a39096 base::internal::Invoker<>::RunOnce()
+  - [pid=2999][err] #25 0x55ea54724eef base::TaskAnnotator::RunTaskImpl()
+  - [pid=2999][err] #26 0x55ea54747fc7 base::internal::TaskTracker::RunTaskImpl()
+  - [pid=2999][err] #27 0x55ea54748061 base::internal::TaskTracker::RunSkipOnShutdown()
+  - [pid=2999][err] #28 0x55ea54747d36 base::internal::TaskTracker::RunTask()
+  - [pid=2999][err] #29 0x55ea547478c0 base::internal::TaskTracker::RunAndPopNextTask()
+  - [pid=2999][err] #30 0x55ea54759988 base::internal::WorkerThread::RunWorker()
+  - [pid=2999][err] #31 0x55ea547595ed base::internal::WorkerThread::RunPooledWorker()
+  - [pid=2999][err] #32 0x55ea547594ed base::internal::WorkerThread::ThreadMain()
+  - [pid=2999][err] #33 0x55ea547762ea base::(anonymous namespace)::ThreadFunc()
+  - [pid=2999][err] #34 0x7fac0e494ac3 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x94ac2)
+  - [pid=2999][err] #35 0x7fac0e526850 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x12684f)
+  - [pid=2999][err]   r8: 0000261400418600  r9: 00002d040014f600 r10: 0000000000000040 r11: 00002d04000a57d0
+  - [pid=2999][err]  r12: 00dc220014260000 r13: 0000000000000004 r14: 0000000000000002 r15: 000055ea4d32ca5e
+  - [pid=2999][err]   di: 000055ea4d32ca5c  si: 00007fac088e7dd0  bp: 0000000000004f48  bx: 000026140022c800
+  - [pid=2999][err]   dx: 000055ea4d32ca5c  ax: 0000000000000004  cx: 0000000000000080  sp: 00007fac088e3820
+  - [pid=2999][err]   ip: 00007fac0e444c1d efl: 0000000000010206 cgf: 002b000000000033 erf: 0000000000000000
+  - [pid=2999][err]  trp: 000000000000000d msk: 0000000000000000 cr2: 0000000000000000
+  - [pid=2999][err] [end of stack trace]
+
+2024-07-15 03:26:21,807 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2024-07-15 03:26:21,807 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2024-07-15 03:26:21,807 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2024-07-15 03:26:21,807 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2024-07-15 03:26:21,808 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2024-07-15 03:26:21,808 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
