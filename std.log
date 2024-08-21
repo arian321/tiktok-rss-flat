@@ -1,28 +1,14 @@
-2024-08-21 13:27:57,873 Using selector: EpollSelector
-2024-08-21 13:30:02,763 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-08-21 13:30:02,763 Using selector: EpollSelector
-2024-08-21 13:32:05,227 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-08-21 13:32:05,228 Using selector: EpollSelector
-2024-08-21 13:32:05,788 Error: BrowserType.launch: Target page, context or browser has been closed
-Browser logs:
-
-<launching> /home/runner/.cache/ms-playwright/chromium-1129/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless=old --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-gpu --single-process --user-data-dir=/tmp/playwright_chromiumdev_profile-XXXXXXqg4U2k --remote-debugging-pipe --no-startup-window
-<launched> pid=3144
-[pid=3144][err] Old Headless mode will be removed from the Chrome binary soon. Please use the new Headless mode (https://developer.chrome.com/docs/chromium/new-headless) or the chrome-headless-shell which is a standalone implementation of the old Headless mode (https://developer.chrome.com/blog/chrome-headless-shell).
-[pid=3144][err] 
-[pid=3144][err] [0821/133205.520755:WARNING:audio_manager_linux.cc(53)] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
-Call log:
-<launching> /home/runner/.cache/ms-playwright/chromium-1129/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless=old --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-gpu --single-process --user-data-dir=/tmp/playwright_chromiumdev_profile-XXXXXXqg4U2k --remote-debugging-pipe --no-startup-window
-  - <launched> pid=3144
-  - [pid=3144][err] Old Headless mode will be removed from the Chrome binary soon. Please use the new Headless mode (https://developer.chrome.com/docs/chromium/new-headless) or the chrome-headless-shell which is a standalone implementation of the old Headless mode (https://developer.chrome.com/blog/chrome-headless-shell).
-  - [pid=3144][err] 
-  - [pid=3144][err] [0821/133205.520755:WARNING:audio_manager_linux.cc(53)] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
-
-2024-08-21 13:32:05,788 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
-Please use the Async API instead.
-2024-08-21 13:32:05,788 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
-Please use the Async API instead.
-2024-08-21 13:32:05,788 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
-Please use the Async API instead.
-2024-08-21 13:32:05,789 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
-Please use the Async API instead.
+2024-08-21 14:24:02,200 Using selector: EpollSelector
+2024-08-21 14:26:05,044 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-08-21 14:26:05,044 Using selector: EpollSelector
+2024-08-21 14:28:07,964 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-08-21 14:28:07,965 Using selector: EpollSelector
+2024-08-21 14:30:10,397 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-08-21 14:30:10,397 Using selector: EpollSelector
+2024-08-21 14:32:12,660 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-08-21 14:32:12,660 Using selector: EpollSelector
+2024-08-21 14:34:15,120 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-08-21 14:34:15,120 Using selector: EpollSelector
+2024-08-21 14:36:17,709 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-08-21 14:36:17,709 Using selector: EpollSelector
+2024-08-21 14:38:20,175 Error: Data scraping unable to complete in 60.0s (retries: 3)
