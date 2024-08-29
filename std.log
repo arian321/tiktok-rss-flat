@@ -1,14 +1,17 @@
-2024-08-29 09:25:12,688 Using selector: EpollSelector
-2024-08-29 09:27:14,850 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-08-29 09:27:14,851 Using selector: EpollSelector
-2024-08-29 09:29:17,301 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-08-29 09:29:17,301 Using selector: EpollSelector
-2024-08-29 09:31:19,272 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-08-29 09:31:19,272 Using selector: EpollSelector
-2024-08-29 09:33:21,942 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-08-29 09:33:21,942 Using selector: EpollSelector
-2024-08-29 09:35:24,103 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-08-29 09:35:24,103 Using selector: EpollSelector
-2024-08-29 09:37:25,858 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-08-29 09:37:25,858 Using selector: EpollSelector
-2024-08-29 09:39:28,374 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-08-29 10:26:06,941 Using selector: EpollSelector
+2024-08-29 10:28:09,417 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-08-29 10:28:09,417 Using selector: EpollSelector
+2024-08-29 10:30:11,838 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-08-29 10:30:11,839 Using selector: EpollSelector
+2024-08-29 10:32:14,106 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-08-29 10:32:14,106 Using selector: EpollSelector
+2024-08-29 10:34:16,270 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-08-29 10:34:16,270 Using selector: EpollSelector
+2024-08-29 10:36:18,453 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-08-29 10:36:18,453 Using selector: EpollSelector
+2024-08-29 10:38:20,799 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-08-29 10:38:20,799 Using selector: EpollSelector
+2024-08-29 10:38:51,658 Error: Page.goto: net::ERR_TIMED_OUT at https://www.tiktok.com/@visitballyhoura
+Call log:
+navigating to "https://www.tiktok.com/@visitballyhoura", waiting until "load"
+
