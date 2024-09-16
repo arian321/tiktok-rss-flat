@@ -1,14 +1,20 @@
-2024-09-16 16:30:30,820 Using selector: EpollSelector
-2024-09-16 16:32:34,311 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-09-16 16:32:34,312 Using selector: EpollSelector
-2024-09-16 16:34:37,231 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-09-16 16:34:37,232 Using selector: EpollSelector
-2024-09-16 16:36:40,207 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-09-16 16:36:40,208 Using selector: EpollSelector
-2024-09-16 16:38:43,060 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-09-16 16:38:43,060 Using selector: EpollSelector
-2024-09-16 16:40:45,770 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-09-16 16:40:45,770 Using selector: EpollSelector
-2024-09-16 16:42:48,875 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-09-16 16:42:48,875 Using selector: EpollSelector
-2024-09-16 16:44:52,723 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-09-16 17:24:00,670 Using selector: EpollSelector
+2024-09-16 17:26:03,069 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-09-16 17:26:03,070 Using selector: EpollSelector
+2024-09-16 17:28:05,742 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-09-16 17:28:05,743 Using selector: EpollSelector
+2024-09-16 17:30:08,087 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-09-16 17:30:08,087 Using selector: EpollSelector
+2024-09-16 17:32:10,572 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-09-16 17:32:10,572 Using selector: EpollSelector
+2024-09-16 17:34:13,290 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-09-16 17:34:13,290 Using selector: EpollSelector
+2024-09-16 17:34:20,894 Error: Page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://www.tiktok.com/@texasbeeworks
+Call log:
+navigating to "https://www.tiktok.com/@texasbeeworks", waiting until "load"
+
+2024-09-16 17:34:20,895 Using selector: EpollSelector
+2024-09-16 17:34:32,851 Error: Page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://www.tiktok.com/@visitballyhoura
+Call log:
+navigating to "https://www.tiktok.com/@visitballyhoura", waiting until "load"
+
