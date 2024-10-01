@@ -1,14 +1,17 @@
-2024-10-01 21:24:05,409 Using selector: EpollSelector
-2024-10-01 21:26:08,031 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-10-01 21:26:08,031 Using selector: EpollSelector
-2024-10-01 21:28:10,537 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-10-01 21:28:10,537 Using selector: EpollSelector
-2024-10-01 21:30:12,857 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-10-01 21:30:12,858 Using selector: EpollSelector
-2024-10-01 21:32:15,175 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-10-01 21:32:15,175 Using selector: EpollSelector
-2024-10-01 21:34:17,577 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-10-01 21:34:17,577 Using selector: EpollSelector
-2024-10-01 21:36:20,173 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-10-01 21:36:20,174 Using selector: EpollSelector
-2024-10-01 21:38:22,899 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-01 22:25:07,280 Using selector: EpollSelector
+2024-10-01 22:25:32,022 Error: Page.goto: net::ERR_CONNECTION_CLOSED at https://www.tiktok.com/@mrbeast
+Call log:
+navigating to "https://www.tiktok.com/@mrbeast", waiting until "load"
+
+2024-10-01 22:25:32,022 Using selector: EpollSelector
+2024-10-01 22:27:34,861 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-01 22:27:34,861 Using selector: EpollSelector
+2024-10-01 22:29:37,403 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-01 22:29:37,403 Using selector: EpollSelector
+2024-10-01 22:31:40,256 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-01 22:31:40,256 Using selector: EpollSelector
+2024-10-01 22:33:43,134 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-01 22:33:43,135 Using selector: EpollSelector
+2024-10-01 22:35:45,992 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-01 22:35:45,993 Using selector: EpollSelector
+2024-10-01 22:37:49,300 Error: Data scraping unable to complete in 60.0s (retries: 3)
