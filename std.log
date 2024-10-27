@@ -1,106 +1,14 @@
-2024-10-27 05:24:42,285 Using selector: EpollSelector
-2024-10-27 05:24:43,101 Error: BrowserType.launch: Target page, context or browser has been closed
-Browser logs:
-
-<launching> /home/runner/.cache/ms-playwright/chromium-1140/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,ThirdPartyStoragePartitioning,LensOverlay,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless=old --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-gpu --single-process --user-data-dir=/tmp/playwright_chromiumdev_profile-i35bYY --remote-debugging-pipe --no-startup-window
-<launched> pid=3118
-[pid=3118][err] Old Headless mode will be removed from the Chrome binary soon. Please use the new Headless mode (https://developer.chrome.com/docs/chromium/new-headless) or the chrome-headless-shell which is a standalone implementation of the old Headless mode (https://developer.chrome.com/blog/chrome-headless-shell).
-[pid=3118][err] 
-[pid=3118][err] [1027/052442.620127:WARNING:audio_manager_linux.cc(54)] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
-[pid=3118][err] Received signal 11 SI_KERNEL000000000000
-[pid=3118][err]  Possibly a General Protection Fault, can be due to a non-canonical address dereference. See "Intel 64 and IA-32 Architectures Software Developer’s Manual", Volume 1, Section 3.3.7.1.
-[pid=3118][err] #0 0x55958a1ee152 [1027/052442.657871:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
-[pid=3118][err] base::debug::CollectStackTrace()
-[pid=3118][err] #1 0x55958a1db90e base::debug::StackTrace::StackTrace()
-[pid=3118][err] #2 0x55958a1edb61 base::debug::(anonymous namespace)::StackDumpSignalHandler()
-[pid=3118][err] #3 0x7fe0e8042520 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4251f)
-[pid=3118][err] #4 0x7fe0e8044c1d getenv
-[pid=3118][err] #5 0x5595855b65a0 FT_Set_Default_Properties
-[pid=3118][err] #6 0x5595855b69ce FT_Init_FreeType
-[pid=3118][err] #7 0x55958ab4e6d1 IA__FcFreeTypeQueryAll
-[pid=3118][err] #8 0x55958ab4b770 FcFileScanConfig
-[pid=3118][err] #9 0x55958ab4bb06 FcDirScanConfig
-[pid=3118][err] #10 0x55958ab4bc6a FcDirCacheScan
-[pid=3118][err] #11 0x55958ab4bd0b IA__FcDirCacheRead
-[pid=3118][err] #12 0x55958ab41257 FcConfigAddDirList
-[pid=3118][err] #13 0x55958ab411a2 IA__FcConfigBuildFonts
-[pid=3118][err] #14 0x55958ab50471 IA__FcInitLoadConfigAndFonts
-[pid=3118][err] #15 0x55958ab406d1 FcConfigInit
-[pid=3118][err] #16 0x55958acb39f5 base::NoDestructor<>::NoDestructor<>()
-[pid=3118][err] #17 0x55958acb3986 base::internal::Invoker<>::RunOnce()
-[pid=3118][err] #18 0x55958a182f2f base::TaskAnnotator::RunTaskImpl()
-[pid=3118][err] #19 0x55958a1a72d7 base::internal::TaskTracker::RunTaskImpl()
-[pid=3118][err] #20 0x55958a1a7371 base::internal::TaskTracker::RunSkipOnShutdown()
-[pid=3118][err] #21 0x55958a1a6fd1 base::internal::TaskTracker::RunTask()
-[pid=3118][err] #22 0x55958a1a69d5 base::internal::TaskTracker::RunAndPopNextTask()
-[pid=3118][err] #23 0x55958a1b63f8 base::internal::WorkerThread::RunWorker()
-[pid=3118][err] #24 0x55958a1b606d base::internal::WorkerThread::RunPooledWorker()
-[pid=3118][err] #25 0x55958a1b5f68 base::internal::WorkerThread::ThreadMain()
-[pid=3118][err] #26 0x55958a1d1905 base::(anonymous namespace)::ThreadFunc()
-[pid=3118][err] #27 0x7fe0e8094ac3 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x94ac2)
-[pid=3118][err] #28 0x7fe0e8126850 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x12684f)
-[pid=3118][err]   r8: 0000192000215400  r9: 000055958a238b10 r10: 0000000000000001 r11: 0000000000000246
-[pid=3118][err]  r12: 005c020020190000 r13: 0000000000000013 r14: 0000000000000011 r15: 00005595828ff077
-[pid=3118][err]   di: 00005595828ff075  si: 0000000000000000  bp: 0000000000005246  bx: 0000192000024800
-[pid=3118][err]   dx: 00005595828ff075  ax: 0000000000000013  cx: 000000000000000b  sp: 00007fe0e3645380
-[pid=3118][err]   ip: 00007fe0e8044c1d efl: 0000000000010206 cgf: 002b000000000033 erf: 0000000000000000
-[pid=3118][err]  trp: 000000000000000d msk: 0000000000000000 cr2: 0000000000000000
-[pid=3118][err] [end of stack trace]
-Call log:
-<launching> /home/runner/.cache/ms-playwright/chromium-1140/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,ThirdPartyStoragePartitioning,LensOverlay,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless=old --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-gpu --single-process --user-data-dir=/tmp/playwright_chromiumdev_profile-i35bYY --remote-debugging-pipe --no-startup-window
-  - <launched> pid=3118
-  - [pid=3118][err] Old Headless mode will be removed from the Chrome binary soon. Please use the new Headless mode (https://developer.chrome.com/docs/chromium/new-headless) or the chrome-headless-shell which is a standalone implementation of the old Headless mode (https://developer.chrome.com/blog/chrome-headless-shell).
-  - [pid=3118][err] 
-  - [pid=3118][err] [1027/052442.620127:WARNING:audio_manager_linux.cc(54)] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
-  - [pid=3118][err] Received signal 11 SI_KERNEL000000000000
-  - [pid=3118][err]  Possibly a General Protection Fault, can be due to a non-canonical address dereference. See "Intel 64 and IA-32 Architectures Software Developer’s Manual", Volume 1, Section 3.3.7.1.
-  - [pid=3118][err] #0 0x55958a1ee152 [1027/052442.657871:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
-  - [pid=3118][err] base::debug::CollectStackTrace()
-  - [pid=3118][err] #1 0x55958a1db90e base::debug::StackTrace::StackTrace()
-  - [pid=3118][err] #2 0x55958a1edb61 base::debug::(anonymous namespace)::StackDumpSignalHandler()
-  - [pid=3118][err] #3 0x7fe0e8042520 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4251f)
-  - [pid=3118][err] #4 0x7fe0e8044c1d getenv
-  - [pid=3118][err] #5 0x5595855b65a0 FT_Set_Default_Properties
-  - [pid=3118][err] #6 0x5595855b69ce FT_Init_FreeType
-  - [pid=3118][err] #7 0x55958ab4e6d1 IA__FcFreeTypeQueryAll
-  - [pid=3118][err] #8 0x55958ab4b770 FcFileScanConfig
-  - [pid=3118][err] #9 0x55958ab4bb06 FcDirScanConfig
-  - [pid=3118][err] #10 0x55958ab4bc6a FcDirCacheScan
-  - [pid=3118][err] #11 0x55958ab4bd0b IA__FcDirCacheRead
-  - [pid=3118][err] #12 0x55958ab41257 FcConfigAddDirList
-  - [pid=3118][err] #13 0x55958ab411a2 IA__FcConfigBuildFonts
-  - [pid=3118][err] #14 0x55958ab50471 IA__FcInitLoadConfigAndFonts
-  - [pid=3118][err] #15 0x55958ab406d1 FcConfigInit
-  - [pid=3118][err] #16 0x55958acb39f5 base::NoDestructor<>::NoDestructor<>()
-  - [pid=3118][err] #17 0x55958acb3986 base::internal::Invoker<>::RunOnce()
-  - [pid=3118][err] #18 0x55958a182f2f base::TaskAnnotator::RunTaskImpl()
-  - [pid=3118][err] #19 0x55958a1a72d7 base::internal::TaskTracker::RunTaskImpl()
-  - [pid=3118][err] #20 0x55958a1a7371 base::internal::TaskTracker::RunSkipOnShutdown()
-  - [pid=3118][err] #21 0x55958a1a6fd1 base::internal::TaskTracker::RunTask()
-  - [pid=3118][err] #22 0x55958a1a69d5 base::internal::TaskTracker::RunAndPopNextTask()
-  - [pid=3118][err] #23 0x55958a1b63f8 base::internal::WorkerThread::RunWorker()
-  - [pid=3118][err] #24 0x55958a1b606d base::internal::WorkerThread::RunPooledWorker()
-  - [pid=3118][err] #25 0x55958a1b5f68 base::internal::WorkerThread::ThreadMain()
-  - [pid=3118][err] #26 0x55958a1d1905 base::(anonymous namespace)::ThreadFunc()
-  - [pid=3118][err] #27 0x7fe0e8094ac3 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x94ac2)
-  - [pid=3118][err] #28 0x7fe0e8126850 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x12684f)
-  - [pid=3118][err]   r8: 0000192000215400  r9: 000055958a238b10 r10: 0000000000000001 r11: 0000000000000246
-  - [pid=3118][err]  r12: 005c020020190000 r13: 0000000000000013 r14: 0000000000000011 r15: 00005595828ff077
-  - [pid=3118][err]   di: 00005595828ff075  si: 0000000000000000  bp: 0000000000005246  bx: 0000192000024800
-  - [pid=3118][err]   dx: 00005595828ff075  ax: 0000000000000013  cx: 000000000000000b  sp: 00007fe0e3645380
-  - [pid=3118][err]   ip: 00007fe0e8044c1d efl: 0000000000010206 cgf: 002b000000000033 erf: 0000000000000000
-  - [pid=3118][err]  trp: 000000000000000d msk: 0000000000000000 cr2: 0000000000000000
-  - [pid=3118][err] [end of stack trace]
-
-2024-10-27 05:24:43,101 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
-Please use the Async API instead.
-2024-10-27 05:24:43,102 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
-Please use the Async API instead.
-2024-10-27 05:24:43,102 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
-Please use the Async API instead.
-2024-10-27 05:24:43,102 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
-Please use the Async API instead.
-2024-10-27 05:24:43,102 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
-Please use the Async API instead.
-2024-10-27 05:24:43,102 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
-Please use the Async API instead.
+2024-10-27 06:31:55,312 Using selector: EpollSelector
+2024-10-27 06:33:57,475 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-27 06:33:57,475 Using selector: EpollSelector
+2024-10-27 06:35:59,785 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-27 06:35:59,786 Using selector: EpollSelector
+2024-10-27 06:38:01,763 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-27 06:38:01,763 Using selector: EpollSelector
+2024-10-27 06:40:03,978 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-27 06:40:03,978 Using selector: EpollSelector
+2024-10-27 06:42:06,055 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-27 06:42:06,056 Using selector: EpollSelector
+2024-10-27 06:44:08,068 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-27 06:44:08,068 Using selector: EpollSelector
+2024-10-27 06:46:10,343 Error: Data scraping unable to complete in 60.0s (retries: 3)
