@@ -1,17 +1,14 @@
-2024-12-18 14:26:06,009 Using selector: EpollSelector
-2024-12-18 14:28:08,285 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-12-18 14:28:08,285 Using selector: EpollSelector
-2024-12-18 14:30:11,539 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-12-18 14:30:11,539 Using selector: EpollSelector
-2024-12-18 14:32:14,016 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-12-18 14:32:14,016 Using selector: EpollSelector
-2024-12-18 14:34:16,147 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-12-18 14:34:16,147 Using selector: EpollSelector
-2024-12-18 14:36:18,197 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-12-18 14:36:18,197 Using selector: EpollSelector
-2024-12-18 14:36:24,497 Error: Page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://www.tiktok.com/@texasbeeworks
-Call log:
-  - navigating to "https://www.tiktok.com/@texasbeeworks", waiting until "load"
-
-2024-12-18 14:36:24,498 Using selector: EpollSelector
-2024-12-18 14:38:27,144 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-12-18 15:27:09,332 Using selector: EpollSelector
+2024-12-18 15:29:11,216 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-12-18 15:29:11,216 Using selector: EpollSelector
+2024-12-18 15:31:13,964 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-12-18 15:31:13,964 Using selector: EpollSelector
+2024-12-18 15:33:16,554 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-12-18 15:33:16,554 Using selector: EpollSelector
+2024-12-18 15:35:19,356 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-12-18 15:35:19,356 Using selector: EpollSelector
+2024-12-18 15:37:21,680 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-12-18 15:37:21,680 Using selector: EpollSelector
+2024-12-18 15:39:23,717 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-12-18 15:39:23,717 Using selector: EpollSelector
+2024-12-18 15:41:27,885 Error: Data scraping unable to complete in 60.0s (retries: 3)
