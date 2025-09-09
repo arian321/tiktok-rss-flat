@@ -1,14 +1,23 @@
-2025-09-09 09:29:24,546 Using selector: EpollSelector
-2025-09-09 09:31:27,716 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2025-09-09 09:31:27,716 Using selector: EpollSelector
-2025-09-09 09:33:30,427 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2025-09-09 09:33:30,427 Using selector: EpollSelector
-2025-09-09 09:35:33,026 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2025-09-09 09:35:33,026 Using selector: EpollSelector
-2025-09-09 09:37:35,221 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2025-09-09 09:37:35,221 Using selector: EpollSelector
-2025-09-09 09:39:38,170 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2025-09-09 09:39:38,170 Using selector: EpollSelector
-2025-09-09 09:41:40,925 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2025-09-09 09:41:40,926 Using selector: EpollSelector
-2025-09-09 09:43:43,645 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2025-09-09 10:30:07,771 Using selector: EpollSelector
+2025-09-09 10:32:13,476 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2025-09-09 10:32:13,477 Using selector: EpollSelector
+2025-09-09 10:34:15,841 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2025-09-09 10:34:15,841 Using selector: EpollSelector
+2025-09-09 10:36:18,345 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2025-09-09 10:36:18,345 Using selector: EpollSelector
+2025-09-09 10:38:20,485 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2025-09-09 10:38:20,485 Using selector: EpollSelector
+2025-09-09 10:38:21,114 Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.tiktok.com/@scottseiss
+Call log:
+  - navigating to "https://www.tiktok.com/@scottseiss", waiting until "load"
+
+2025-09-09 10:38:21,115 Using selector: EpollSelector
+2025-09-09 10:38:21,609 Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.tiktok.com/@texasbeeworks
+Call log:
+  - navigating to "https://www.tiktok.com/@texasbeeworks", waiting until "load"
+
+2025-09-09 10:38:21,610 Using selector: EpollSelector
+2025-09-09 10:38:22,094 Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.tiktok.com/@visitballyhoura
+Call log:
+  - navigating to "https://www.tiktok.com/@visitballyhoura", waiting until "load"
+
